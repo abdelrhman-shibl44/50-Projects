@@ -99,22 +99,22 @@ body{
     transform: scale(1);
 }
 .img-1{
-    background-image: url("/css/images/back-1.jpg");
+    background-image: url("./images/back-1.jpg");
 }
 .img-2{
-    background-image: url("/css/images/back-2.jpg");
+    background-image: url("./images/back-2.jpg");
 }
 .img-3{
-    background-image: url("/css/images/back-3.jpg");
+    background-image: url("./images/back-3.jpg");
 }
 .img-4{
-    background-image: url("/css/images/back-4.jpg");
+    background-image: url("./images/back-4.jpg");
 }
 .img-5{
-    background-image: url("/css/images/back-5.jpg");
+    background-image: url("./images/back-5.jpg");
 }
 .img-6{
-    background-image: url("/css/images/back-6.jpg");
+    background-image: url("./images/back-6.jpg");
 }
 @media(max-width:1600px){
     .container{
