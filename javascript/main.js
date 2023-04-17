@@ -492,8 +492,8 @@ arrowRight.addEventListener("click", (e) => {
     indx = -1;
   }
   indx++;
-  imgs.style.backgroundImage = `url(../images/background-images/${AllImgs[indx]})`;
-  backgrond_images.style.backgroundImage = `url(../images/background-images/${AllImgs[indx]})`;
+  imgs.style.backgroundImage = `url(./images/background-images/${AllImgs[indx]})`;
+  backgrond_images.style.backgroundImage = `url(./images/background-images/${AllImgs[indx]})`;
 });
 arrowLeft.addEventListener("click", (e) => {
   if (indx == 0) {
@@ -501,8 +501,8 @@ arrowLeft.addEventListener("click", (e) => {
   }
   arrowRight.classList.remove("not-work");
   indx--;
-  imgs.style.backgroundImage = `url(../images/background-images/${AllImgs[indx]})`;
-  backgrond_images.style.backgroundImage = `url(../images/background-images/${AllImgs[indx]})`;
+  imgs.style.backgroundImage = `url(./images/background-images/${AllImgs[indx]})`;
+  backgrond_images.style.backgroundImage = `url(./images/background-images/${AllImgs[indx]})`;
 });
 // start the clock
 // change mode dark
