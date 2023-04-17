@@ -1094,7 +1094,8 @@ let AddNote = document.querySelector(".NotesApp .NewNote");
 let NoteContainer = document.querySelector(".NotesApp .NoteContainer");
 
 let newLocal = JSON.parse(localStorage.getItem("AllNotes"));
-newLocal.forEach((note) => {
+
+newLocal && newLocal.forEach((note) => {
   addNewNot(note);
 });
 AddNote.addEventListener("click", () => addNewNot());
