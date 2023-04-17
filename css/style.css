@@ -99,22 +99,22 @@ body{
     transform: scale(1);
 }
 .img-1{
-    background-image: url("./images/back-1.jpg");
+    background-image: url("../images/back-1.jpg");
 }
 .img-2{
-    background-image: url("./images/back-2.jpg");
+    background-image: url("../images/back-2.jpg");
 }
 .img-3{
-    background-image: url("./images/back-3.jpg");
+    background-image: url("../images/back-3.jpg");
 }
 .img-4{
-    background-image: url("./images/back-4.jpg");
+    background-image: url("../images/back-4.jpg");
 }
 .img-5{
-    background-image: url("./images/back-5.jpg");
+    background-image: url("../images/back-5.jpg");
 }
 .img-6{
-    background-image: url("./images/back-6.jpg");
+    background-image: url("../images/back-6.jpg");
 }
 @media(max-width:1600px){
     .container{
@@ -153,22 +153,22 @@ body{
     gap:15px
 }
 .expending-cards .img-container .panel:first-child{
-    background-image: url(./images/expending-cards/explore-1.jpg);
+    background-image: url(../images/expending-cards/explore-1.jpg);
 }
 .expending-cards .img-container .panel:nth-child(2){
-    background-image: url(./images/expending-cards/explore-2.jpg);
+    background-image: url(../images/expending-cards/explore-2.jpg);
 }
 .expending-cards .img-container .panel:nth-child(3){
-    background-image: url(./images/expending-cards/explore-3.jpg);
+    background-image: url(../images/expending-cards/explore-3.jpg);
 }
 .expending-cards .img-container .panel:nth-child(4){
-    background-image: url(./images/expending-cards/explore-4.jpg);
+    background-image: url(../images/expending-cards/explore-4.jpg);
 }
 .expending-cards .img-container .panel:nth-child(5){
-    background-image: url(./images/expending-cards/explore-5.jpg);
+    background-image: url(../images/expending-cards/explore-5.jpg);
 }
 .expending-cards .img-container .panel:last-child{
-    background-image: url(./images/expending-cards/explore-6.jpg);
+    background-image: url(../images/expending-cards/explore-6.jpg);
 }
 .expending-cards .parent .panel{
     position:relative;
@@ -500,7 +500,7 @@ body{
     height:100vh;
     width: 100%;
     min-height: 300px;
-    background-image: url(./images/expending-cards/peautiful-overlay.jpg);
+    background-image: url(../images/expending-cards/peautiful-overlay.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -581,10 +581,10 @@ body{
         overflow: hidden;
     }
     .split-container .first{
-        background-image: url(./images/expending-cards/6UM7ph.jpg);
+        background-image: url(../images/expending-cards/6UM7ph.jpg);
     }
     .split-container .second{
-        background-image:url(./images/expending-cards/phmO84.jpg);
+        background-image:url(../images/expending-cards/phmO84.jpg);
     }
     .split-container .spilt.hover{
         transition: 0.9s linear;
@@ -1346,7 +1346,7 @@ form .holder  #btn  + span a{
 .background-images{
     padding:60px 0;
     height:100vh;
-    background-image:url(./images/background-images/background1.jpg);
+    background-image:url(../images/background-images/background1.jpg);
     background-position:center center;
     background-size:cover;
     background-repeat: no-repeat;
@@ -1373,7 +1373,7 @@ form .holder  #btn  + span a{
     overflow: hidden;
 }
 .background-images .allImgs .img{
-    background-image:url(./images/background-images/background1.jpg);
+    background-image:url(../images/background-images/background1.jpg);
     height: 100vh;
     width: 100vw;
     background-position: center center;
@@ -1675,7 +1675,7 @@ form .holder  #btn  + span a{
 }
 
 .DragImages .containerImages .fill{
-    background-image:url(./images/expending-cards/6UM7ph.jpg);
+    background-image:url(../images/expending-cards/6UM7ph.jpg);
     width: 150px;
     height: 150px;
     background-position: -46px 0px;
@@ -2210,7 +2210,7 @@ form .holder  #btn  + span a{
 }
 .Double-click .loveImage{
     position:relative;
-    background-image: url(./images/loveImage/photo-1541963463532-d68292c34b19.jpg);
+    background-image: url(../images/loveImage/photo-1541963463532-d68292c34b19.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position:center center; 
@@ -2873,7 +2873,7 @@ form .holder  #btn  + span a{
 }
 .passwordHolder{
     padding:60px 0 ;
-    background:#ffff url(./images/img-carousel/aboutLove.jpg) no-repeat center  / cover;
+    background:#ffff url(../images/img-carousel/aboutLove.jpg) no-repeat center  / cover;
     min-height: 100vh;
     width:100%;
     filter:blur(20px);
@@ -2955,7 +2955,7 @@ form .holder  #btn  + span a{
     position: relative;
     width: 124px;
     height: 126px;
-    background:#fff url(./images/img-carousel/giphy.gif) no-repeat center / 500px 500px;
+    background:#fff url(../images/img-carousel/giphy.gif) no-repeat center / 500px 500px;
     transition:0.6s ease;
 }
     .background-boxes .mainBox.big{
